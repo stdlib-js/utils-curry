@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-curry",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Transform a function into a sequence of functions each accepting a single argument.",
   "license": "Apache-2.0",
   "author": {
@@ -15,6 +15,7 @@
   ],
   "main": "./lib",
   "directories": {
+    "benchmark": "./benchmark",
     "doc": "./docs",
     "example": "./examples",
     "lib": "./lib",
