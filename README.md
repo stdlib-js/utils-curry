@@ -34,14 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-curry
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@esm/index.mjs';
+var curry = require( '@stdlib/utils-curry' );
 ```
 
 #### curry( fcn\[, arity]\[, thisArg] )
@@ -173,13 +189,8 @@ var str = fcn( 'Hello' )( 'there' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@esm/index.mjs';
+```javascript
+var curry = require( '@stdlib/utils-curry' );
 
 var fcn;
 var out;
@@ -195,10 +206,6 @@ for ( i = 0; i < add.length; i++ ) {
     out = out( i*10 );
 }
 console.log( out );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -238,7 +245,7 @@ console.log( out );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -300,11 +307,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/curry-right]: https://github.com/stdlib-js/utils-curry-right/tree/esm
+[@stdlib/utils/curry-right]: https://github.com/stdlib-js/utils-curry-right
 
-[@stdlib/utils/uncurry]: https://github.com/stdlib-js/utils-uncurry/tree/esm
+[@stdlib/utils/uncurry]: https://github.com/stdlib-js/utils-uncurry
 
-[@stdlib/utils/uncurry-right]: https://github.com/stdlib-js/utils-uncurry-right/tree/esm
+[@stdlib/utils/uncurry-right]: https://github.com/stdlib-js/utils-uncurry-right
 
 <!-- </related-links> -->
 
