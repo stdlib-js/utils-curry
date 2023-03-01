@@ -34,38 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-curry
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-curry = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var curry = require( 'path/to/vendor/umd/utils-curry/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.curry;
-})();
-</script>
+var curry = require( '@stdlib/utils-curry' );
 ```
 
 #### curry( fcn\[, arity]\[, thisArg] )
@@ -197,13 +189,8 @@ var str = fcn( 'Hello' )( 'there' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var curry = require( '@stdlib/utils-curry' );
 
 var fcn;
 var out;
@@ -219,11 +206,6 @@ for ( i = 0; i < add.length; i++ ) {
     out = out( i*10 );
 }
 console.log( out );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -246,9 +228,9 @@ console.log( out );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/curry-right`][@stdlib/utils/curry-right]</span><span class="delimiter">: </span><span class="description">transform a function into a sequence of functions each accepting a single argument.</span>
--   <span class="package-name">[`@stdlib/utils/uncurry`][@stdlib/utils/uncurry]</span><span class="delimiter">: </span><span class="description">transform a curried function into a function invoked with multiple arguments.</span>
--   <span class="package-name">[`@stdlib/utils/uncurry-right`][@stdlib/utils/uncurry-right]</span><span class="delimiter">: </span><span class="description">transform a curried function into a function invoked with multiple arguments.</span>
+-   <span class="package-name">[`@stdlib/utils-curry-right`][@stdlib/utils/curry-right]</span><span class="delimiter">: </span><span class="description">transform a function into a sequence of functions each accepting a single argument.</span>
+-   <span class="package-name">[`@stdlib/utils-uncurry`][@stdlib/utils/uncurry]</span><span class="delimiter">: </span><span class="description">transform a curried function into a function invoked with multiple arguments.</span>
+-   <span class="package-name">[`@stdlib/utils-uncurry-right`][@stdlib/utils/uncurry-right]</span><span class="delimiter">: </span><span class="description">transform a curried function into a function invoked with multiple arguments.</span>
 
 </section>
 
@@ -325,11 +307,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/curry-right]: https://github.com/stdlib-js/utils-curry-right/tree/umd
+[@stdlib/utils/curry-right]: https://github.com/stdlib-js/utils-curry-right
 
-[@stdlib/utils/uncurry]: https://github.com/stdlib-js/utils-uncurry/tree/umd
+[@stdlib/utils/uncurry]: https://github.com/stdlib-js/utils-uncurry
 
-[@stdlib/utils/uncurry-right]: https://github.com/stdlib-js/utils-uncurry-right/tree/umd
+[@stdlib/utils/uncurry-right]: https://github.com/stdlib-js/utils-uncurry-right
 
 <!-- </related-links> -->
 
