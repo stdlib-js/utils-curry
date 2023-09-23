@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@esm/index.mjs';
+import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@v0.1.0-esm/index.mjs';
 ```
 
 #### curry( fcn\[, arity]\[, thisArg] )
@@ -190,7 +190,7 @@ var str = fcn( 'Hello' )( 'there' );
 <body>
 <script type="module">
 
-import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@esm/index.mjs';
+import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@v0.1.0-esm/index.mjs';
 
 var fcn;
 var out;
