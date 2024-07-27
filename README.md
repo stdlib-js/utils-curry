@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-curry/tags). For example,
+
+```javascript
 import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@v0.2.2-esm/index.mjs';
 ```
 
@@ -190,7 +195,7 @@ var str = fcn( 'Hello' )( 'there' );
 <body>
 <script type="module">
 
-import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@v0.2.2-esm/index.mjs';
+import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@esm/index.mjs';
 
 var fcn;
 var out;
