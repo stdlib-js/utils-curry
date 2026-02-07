@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-curry/tags). For example,
+
+```javascript
 import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@v0.2.3-deno/mod.js';
 ```
 
@@ -185,7 +190,7 @@ var str = fcn( 'Hello' )( 'there' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@v0.2.3-deno/mod.js';
+import curry from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry@deno/mod.js';
 
 var fcn;
 var out;
