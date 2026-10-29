@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-25)
+## Unreleased (2026-10-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`c075755`](https://github.com/stdlib-js/stdlib/commit/c075755477fee5aed33b7ad976072bb428f60bc3) - **chore:** update keywords and fix type [(#16329)](https://github.com/stdlib-js/stdlib/pull/16329) _(by Philipp Burckhardt)_
 -   [`1c95150`](https://github.com/stdlib-js/stdlib/commit/1c9515034550374b8759dcaf681c6cbc99d47030) - **docs:** fix errors and inconsistencies in `@stdlib/utils` TypeScript declarations [(#12391)](https:-/github.com/stdlib-js/stdlib/pull/12391) _(by Philipp Burckhardt, Athan Reines)_
 -   [`19216fd`](https://github.com/stdlib-js/stdlib/commit/19216fd118234a4dd38792e9e1d8f982617a5795) - **bench:** refactor to use string interpolation in `utils` [(#11409)](https://github.com/stdlib-js/stdlib/pull/11409) _(by Karan Anand, Athan Reines)_
 
